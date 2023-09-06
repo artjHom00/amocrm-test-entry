@@ -185,7 +185,7 @@ async function createDeal(contactId) {
             _embedded: {
                 contacts: [
                     {
-                        id: contactId
+                        id: Number(contactId)
                     }
                 ]
             }
